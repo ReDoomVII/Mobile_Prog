@@ -48,7 +48,7 @@ function calculate_cost() {
     # Mengurangi total biaya proyek dari anggaran awal untuk mendapatkan sisa anggaran.
     # Hasilnya disimpan ke variabel 'remaining_budget'.
 
-    # Menampilkan hasil perhitungan
+    # Menampilkan hasil perhitungann
     echo "------------------------"  # Menampilkan garis pemisah.
     echo "Total biaya gaji pengembang: Rp $total_salary"  # Menampilkan total biaya gaji pengembang.
     echo "Total biaya server: Rp $total_server_cost"  # Menampilkan total biaya server.
