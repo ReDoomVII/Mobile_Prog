@@ -20,11 +20,6 @@ function hitungharga() {
     echo "Berapa anggaran awal proyek? (dalam Rupiah): "
     read modal
 
-    totalgaji=$((jumlahdev * gajidev * projectdur))
-    totalservercost=$((servercost * projectdur))
-    totalcost=$((totalgaji + totalservercost + licensecost + operationcost))
-    sisamodal=$((modal - totalcost))
-
     echo "=========================="
     echo "Jadi, total biaya gaji developernya adalah: Rp $totalgaji" 
     echo "Jadi, total biaya servernya adalah: Rp $totalservercost"
