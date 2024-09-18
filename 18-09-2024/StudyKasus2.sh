@@ -26,6 +26,8 @@ function hitungharga() {
 
     echo "=========================="
     echo "Jadi, total biaya gaji pekerjanya adalah: Rp $totalgaji" 
+    echo "Jadi, total biaya materialnya adalah: Rp $matcost"
+    echo "Jadi, total biaya arstieknya adalah: Rp $arscost"
     echo "Jadi, total biaya operasionalnya adalah: Rp $operationcost"
     echo "=========================="
     echo "Jadi, total biaya keseluruhan proyeknya adalah: Rp $totalcost"
