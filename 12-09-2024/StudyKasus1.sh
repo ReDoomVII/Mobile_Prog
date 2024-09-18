@@ -37,7 +37,7 @@ function hitungharga() {
     if [ $sisamodal -lt 0 ]; then
         echo "Proyek ini melebihi anggaran sebesar Rp ${sisamodal#-}"
     else
-        echo  "Proyek ini dapat diselesaikan dengan anggaran yang ada."
+        echo "Proyek ini dapat diselesaikan dengan anggaran yang ada."
     fi
 }
 
