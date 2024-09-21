@@ -26,7 +26,7 @@ function hitungharga() {
     echo "Jadi, total biaya untuk konsumsi siswa adalah: Rp $totalparkir" 
     echo "=========================="
     echo "Jadi, total biaya untuk perjalanan wisata sekolah adalah: Rp $totalbiaya"
-    echo "Jadi, sisa modalnya adalah: Rp $sisamodal" 
+    echo "Jadi, sisa anggarannya adalah: Rp $sisamodal" 
 
     if [ $sisamodal -lt 0 ]; then
         echo "Perjalanan ini melebihi anggaran sebesar Rp ${sisamodal#-}"
