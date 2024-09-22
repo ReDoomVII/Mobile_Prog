@@ -21,9 +21,9 @@ function hitungharga() {
     sisamodal=$((modal - totalbiaya))
 
     echo "=========================="
-    echo "Jadi, total biaya untuk transportasi siswa adalah adalah: Rp $totalparkir" 
-    echo "Jadi, total biaya untuk tiket siswa adalah: Rp $totalparkir" 
-    echo "Jadi, total biaya untuk konsumsi siswa adalah: Rp $totalparkir" 
+    echo "Jadi, total biaya untuk transportasi siswa adalah adalah: Rp $totaltrans" 
+    echo "Jadi, total biaya untuk tiket siswa adalah: Rp $totaltiket" 
+    echo "Jadi, total biaya untuk konsumsi siswa adalah: Rp $totalkonsum" 
     echo "=========================="
     echo "Jadi, total biaya untuk perjalanan wisata sekolah adalah: Rp $totalbiaya"
     echo "Jadi, sisa anggarannya adalah: Rp $sisamodal" 
